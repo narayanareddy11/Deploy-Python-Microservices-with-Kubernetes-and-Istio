@@ -1,6 +1,6 @@
 # Deploy-Python-Microservices-with-Kubernetes-and-Istio
 
-1. Prerequisites
+## 1. Prerequisites ##
 Kubernetes Cluster: Set up a Kubernetes cluster (e.g., using GKE, EKS, AKS, or Minikube for local testing).
 
 Istio: Install Istio in your Kubernetes cluster.
