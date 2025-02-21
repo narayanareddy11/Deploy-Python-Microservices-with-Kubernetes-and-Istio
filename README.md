@@ -13,7 +13,7 @@ kubectl: Configured to access your Kubernetes cluster.
 
 Helm (optional): For managing Istio or other Kubernetes deployments.
 
-2. Structure of the Application
+## 2. Structure of the Application ##
 Assume you have three Python microservices:
 
 Service A: Exposes an API.
