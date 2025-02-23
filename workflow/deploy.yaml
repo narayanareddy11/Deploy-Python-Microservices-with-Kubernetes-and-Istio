@@ -1,0 +1,24 @@
+name: Python Self-Hosted Runner Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-python:
+    runs-on: self-hosted  # Use the self-hosted runner
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # Use the latest Python 3.x version
+
+      - name: Run Python script
+        run: python hello.py
