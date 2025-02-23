@@ -1,8 +1,4 @@
-Here’s the complete file structure and code formatted as a `README.md` file. You can copy and paste this into a `README.md` file in your project repository.
 
----
-
-```markdown
 # E-Commerce Microservices with Kafka
 
 This project demonstrates a simple e-commerce application with three microservices:
@@ -12,10 +8,9 @@ This project demonstrates a simple e-commerce application with three microservic
 
 Kafka is used for event-driven communication between the microservices.
 
----
+
 
 ## File Structure
-
 ```
 e-commerce-microservices/
 ├── product-service/
